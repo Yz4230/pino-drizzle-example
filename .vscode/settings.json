@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "db",
+      "database": "logs.sqlite"
+    }
+  ]
+}

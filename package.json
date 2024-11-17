@@ -1,0 +1,20 @@
+{
+  "name": "pino-db",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.28.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "drizzle-orm": "^0.36.3",
+    "pino": "^9.5.0",
+    "pino-abstract-transport": "^2.0.0",
+    "pino-pretty": "^13.0.0",
+    "zod": "^3.23.8"
+  }
+}
